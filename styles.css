@@ -1,0 +1,30 @@
+body {
+	background: #0B393A;
+}
+/* nav käib päises oleva peamenüü kohta */
+nav {
+	text-align: right
+}
+nav ul{
+	display: inline;
+}
+nav ul li {
+	display: inline;
+	list-style-type: none;
+	color: #2AA567;
+	padding: 2px 40px;
+	text-align: 
+	
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-family: Papyrus
+}
+table {
+	width: 100%
+}
+
+#aktiivne {
+	color: #2AA567
+}
