@@ -28,3 +28,19 @@ table {
 #aktiivne {
 	color: #2AA567
 }
+footer{
+	position: fixed;
+	display: block;
+	background: black;
+	color: white;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+#tabel1 {
+	height: 75px;
+}
+#tabel2 {
+	text-align: left
+	padding: 2px 40px;
+}
