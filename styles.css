@@ -24,10 +24,14 @@ nav ul li a {
 table {
 	width: 100%
 }
-
 #aktiivne {
 	color: #2AA567
 }
+#tabel1 {
+	height: 75px
+}
+/* nav asjad lõppevad */
+/* siit alates on footeri asjad, need käivad selle lõpuriba kohta */
 footer{
 	position: fixed;
 	display: block;
@@ -37,10 +41,26 @@ footer{
 	left: 0;
 	width: 100%;
 }
-#tabel1 {
-	height: 75px;
-}
 #tabel2 {
-	text-align: left
-	padding: 2px 40px;
+	text-align: left;
+	height: 200px
 }
+#footer_kujundus {
+	width: 25%;
+	padding: 20px;
+}
+#footer_pealkiri {
+	font-weight: normal;
+	font-family: Calibri Light;
+	font-size: 25px
+}
+#footer_sisu {
+	font-weight: normal;
+	font-family: Calibri Light;
+	font-size: 15px
+}
+#korrektuur {
+	padding-top: 20px;
+	padding-left: 20px
+}
+/* siit lõpevad footeri asjad */
