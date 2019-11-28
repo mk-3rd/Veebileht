@@ -1,5 +1,6 @@
 body {
 	background: #0B393A;
+	margin: 0;
 }
 /* nav käib päises oleva peamenüü kohta */
 nav {
@@ -12,14 +13,13 @@ nav ul li {
 	display: inline;
 	list-style-type: none;
 	color: #2AA567;
-	padding: 2px 40px;
-	text-align: 
-	
+	padding: 2px 40px;	
 }
 nav ul li a {
 	color: white;
 	text-decoration: none;
-	font-family: Papyrus
+	font-family: Papyrus;
+	font-size: 20px
 }
 table {
 	width: 100%
@@ -28,12 +28,13 @@ table {
 	color: #2AA567
 }
 #tabel1 {
-	height: 75px
+	height: 85px
 }
 /* nav asjad lõppevad */
+
 /* siit alates on footeri asjad, need käivad selle lõpuriba kohta */
 footer{
-	position: fixed;
+	position: relative;
 	display: block;
 	background: black;
 	color: white;
@@ -64,3 +65,7 @@ footer{
 	padding-left: 20px
 }
 /* siit lõpevad footeri asjad */
+
+/* main id mõjutab lehe sisu osa, hetkel see on vajalik, et ta täidaks lehe ära ka kui sisu pole ja lükkaks footeri õigesse kohta */
+#main {
+	min-height: calc(100vh - 200px - 85px);
