@@ -1,0 +1,21 @@
+figure{
+   overflow:hidden; /*pildi piiride peitmine? */
+   margin:0;
+}
+figure img{
+   display:block;
+   width:100%;
+   margin:-15.5% 0;
+   /* croppimine */
+}
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  top: 255px;
+  left: 30px;
+  color: white;
+}
