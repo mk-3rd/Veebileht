@@ -68,3 +68,8 @@
     @media only screen and (max-width: 300px) {
       .text {font-size: 11px;}
     }
+#main {
+	font-family: "Times New Roman", Times, serif;
+	font-size:20px;
+	color:#1e331f
+}

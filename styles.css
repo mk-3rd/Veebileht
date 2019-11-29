@@ -69,3 +69,6 @@ footer{
 /* main id mõjutab lehe sisu osa, hetkel see on vajalik, et ta täidaks lehe ära ka kui sisu pole ja lükkaks footeri õigesse kohta */
 #main {
 	min-height: calc(100vh - 200px - 85px);
+	background-color:white;
+	text-align:center;
+}
