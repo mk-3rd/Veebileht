@@ -1,15 +1,16 @@
-<<<<<<< HEAD
 figure {
    overflow:hidden; /*pildi piiride peitmine? */
    margin:0;
 }
+
 figure img{
    display:block;
-=======
+}
+
 #riba {
->>>>>>> 45f9ca3436b0dc3cbe89031ca0f26089e3908d1a
    width:100%;
 }
+
 #tekst {
 	font-family: "Times New Roman", Times, serif;
 	font-size:20px;
