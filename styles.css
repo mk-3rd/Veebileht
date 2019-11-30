@@ -47,16 +47,16 @@ footer{
 	text-align: left;
 	height: 200px
 }
-#footer_kujundus {
+.footer_kujundus {
 	width: 25%;
 	padding: 20px;
 }
-#footer_pealkiri {
+.footer_pealkiri {
 	font-weight: normal;
 	font-family: Calibri Light;
 	font-size: 25px
 }
-#footer_sisu {
+.footer_sisu {
 	font-weight: normal;
 	font-family: Calibri Light;
 	font-size: 15px
