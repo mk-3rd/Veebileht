@@ -4,6 +4,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--<script type="text/javascript" src="javascript/slideshow.js" ></script>-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
   <title>Avaleht</title>
 </head>
 
@@ -26,25 +30,29 @@
 	</tr>
 </table>
 
-<!-- See on slaidshow osa-->
+
+
+	<!--<main id="main">-->
+  <!-- See on slaidshow osa-->
   
+</div id="slaidid">
   <div class="slideshow-container">
   
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="pildid/mets8.jpg" style="width:100%">
+    <img src="pildid/mets5.jpg" style="width:100%">
     <div class="text">Raietööde teostamine</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="pildid/puu1.jpg" style="width: 100%">
+    <img src="pildid/mets6.jpg" style="width: 100%">
     <div class="text">Metsamajandamiskava koostamine</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="pildid/puu2.jpg" style="width: 100%">
+    <img src="pildid/mets7.jpg" style="width: 100%">
     <div class="text">Metsa ost</div>
   </div>
   
@@ -57,39 +65,36 @@
     <span class="dot"></span> 
   </div>
   <!--siin lõppeb slideshow osa-->
-  <!--Javascripiti osa
-  <script>
-  var slideIndex = 0;
-  showSlides();
-  
-  function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-  }
-  </script>-->
-
+<script src="javascript/slideshow.js"></script>
 <!--siin lõppeb JS-->
 
 	<main id="main">
     <!-- Kogu lehe sisu mis lisame, peaks olema main tag-ide vahelises alas, siis header ja footer püsivad õiges kohas -->
+  </script>
+  </div>
+<!--siin lõppeb slideshow osa-->
+		<!-- algab loendur -->
+		<table id='tabel3'>
+		<tr><div id="loe">
+		<br/>
+		<th><div id="shiva"><span class="count">4400</span></div>EUR/HA<br/> Meie viimase aasta<br/> metsamaa ostuhind<th/>
+		<th><div id="shiva"><span class="count">2200</span></div>EUR/HA<br/>Eesti viimase aasta<br/> metsamaa ostuhind<th/>
+		<th><div id="shiva"><span class="count">555</span></div>TEHINGUT<br/>Meie viimase aasta<br/> tehingute hulk<th/>
+		<div style="clear:both"></div>
+		<script type="text/javascript" src="javascript/loendur.js" ></script>
+		</div>
+		<tr/>
+		<!-- lõpeb loendur -->
+		</table>
 	<!-- Kogu lehe sisu mis lisame, peaks olema main tag-ide vahelises alas, siis header ja footer püsivad õiges kohas -->
+	<br>
+	<div id="tekst">
 	<br>
 	<h1><strong>Säästa raha ja loodust!</strong></h1>
 	<p>Silvestre pakub konkurentsitult eesti parima hinnaga metsamajandusteenuseid ning meil on juba sadu rahulolevaid kliente üle terve riigi.<br>
 	Kõiki töid teostame vastutustundlikult, eetiliselt ja keskkonnastandarditele vastavalt. <br>
 	Kui hoolid oma metsast ja rahakotist, võta ühendust ning räägime üksikasjadest juba täpsemalt!</p>
+	</div>
 	</main>
 	<!-- see footeri osa on siis see lõpuriba see võiks koodi viimaseks osaks jääda -->
 	<footer>
@@ -104,8 +109,7 @@
 	</footer>
 
 
-<script src="javascript/slideshow.js"></script>
-
+<!--<script  type="text/javascript" src="javascript/slideshow.js"></script>-->
 </body>
 	
 </html>
