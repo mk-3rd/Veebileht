@@ -1,3 +1,4 @@
+
 div {
     background-color: white;
     width: 1000px;
@@ -8,3 +9,24 @@ div {
     
 
   }
+figure{
+   overflow:hidden; /*pildi piiride peitmine? */
+   margin:0;
+}
+figure img{
+   display:block;
+   width:100%;
+   margin:-26% 0; 
+   /* croppimine */
+}
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  top: 420px;
+  left: 30px;
+  color: white;
+}
