@@ -1,3 +1,4 @@
+
 #body {
     background-color: #0B393A;
 }
@@ -16,16 +17,16 @@ ul.b {list-style-type: disc;}
     padding-left: 80px;
   }
 
-  h1 {
-      text-decoration: underline;
-      text-decoration-color: green;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
+#h11 {
+    text-decoration: underline;
+    text-decoration-color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
   /* Create three unequal columns that floats next to each other */
 .column {
     float: left;
-    padding: 10px;
+    padding: 30px;
   }
   
   /* Left and right column */
@@ -50,4 +51,7 @@ ul.b {list-style-type: disc;}
     .column.side, .column.middle {
       width: 100%;
     }
-  }
+#riba {
+   width:100%;
+}
+

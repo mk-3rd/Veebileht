@@ -4,21 +4,20 @@
 <head>
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--<script type="text/javascript" src="javascript/slideshow.js" ></script>-->
+	<script type="text/javascript" src="javascript/slideshow.js" ></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
   <title>Avaleht</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="avaleht.css">
 </head>
 
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="avaleht.css">
 
 <body>
 
 <!-- kogu see table plokk puudutab ülemist rida logo ja navigatsiooni menüüga -->
 <table id='tabel1'>
 	<tr>
-		<th> <img src="pildid/logo.png" width="200" height="38" > </th>
+		<th> <img src="pildid/logo.png" alt="logo" width="200" height="38" > </th>
 		<th><nav>
 		  <ul>
 			<li><a id='aktiivne' href="avaleht.html"><strong>Avaleht</strong></a></li>
@@ -28,7 +27,6 @@
 		</nav></th>
 	</tr>
 </table>
-
 <main id="main">
     <!-- See on slaidshow osa-->
   </div id="slaidid">
@@ -83,21 +81,18 @@
     }
     </script>
     </div>
-  <!--siin lõppeb slideshow osa-->
-    
-<!-- algab loendur -->
+		<!-- algab loendur -->
+		<br>
 		<table id='tabel3'>
-		<tr><div id="loe">
-		<br/>
-		<th><div id="shiva"><span class="count">4400</span></div>EUR/HA<br/> Meie viimase aasta<br/> metsamaa ostuhind<th/>
-		<th><div id="shiva"><span class="count">2200</span></div>EUR/HA<br/>Eesti viimase aasta<br/> metsamaa ostuhind<th/>
-		<th><div id="shiva"><span class="count">555</span></div>TEHINGUT<br/>Meie viimase aasta<br/> tehingute hulk<th/>
+      <tr>
+        <th><div class="shiva"><span class="count">4400</span></div>EUR/HA<br> Meie viimase aasta<br> metsamaa ostuhind</th>
+        <th><div class="shiva"><span class="count">2200</span></div>EUR/HA<br>Eesti viimase aasta<br> metsamaa ostuhind</th>
+        <th><div class="shiva"><span class="count">555</span></div>TEHINGUT<br>Meie viimase aasta<br> tehingute hulk</th>
+      </tr>
+		</table>
 		<div style="clear:both"></div>
 		<script type="text/javascript" src="javascript/loendur.js" ></script>
-		</div>
-		<tr/>
 		<!-- lõpeb loendur -->
-		</table>
 	<!-- Kogu lehe sisu mis lisame, peaks olema main tag-ide vahelises alas, siis header ja footer püsivad õiges kohas -->
 	<br>
 	<div id="tekst">
@@ -112,16 +107,15 @@
 	<footer>
 		<table id="tabel2">
 			<tr>
-				<td id="footer_kujundus"><img src="pildid/logo.png" width="200" height="38" ><p></p><img src="pildid/info.png" width="180" height="52"><p></p>© 2019 Silvestre</td>
-				<td id="footer_kujundus"> <h1 id="footer_pealkiri">Silvestre OÜ</h1><p id="footer_pealkiri"></p><p id="footer_sisu">Registrikood: 10827304<br>Karja 27, Haapsalu 90502</p></td>
-				<td id="footer_kujundus"> <h1 id="footer_pealkiri">Kontaktid</h1><p id="footer_pealkiri"></p><p id="footer_sisu">+372 553 4783<br>info@silvestre.ee</p></td>
-				<td id="korrektuur"> <h1 id="footer_pealkiri">Teenused</h1><p id="footer_pealkiri"></p><p id="footer_sisu">Metsa ost<br>Raieõiguse ost<br>Metsamajandamiskava</p></td>
+				<td class="footer_kujundus"><img src="pildid/logo.png" alt="logo" width="200" height="38" ><p></p><img src="pildid/info.png" alt="info" width="180" height="52"><p></p>© 2019 Silvestre</td>
+				<td class="footer_kujundus"> <h1 class="footer_pealkiri">Silvestre OÜ</h1><p class="footer_pealkiri"></p><p class="footer_sisu">Registrikood: 10827304<br>Karja 27, Haapsalu 90502</p></td>
+				<td class="footer_kujundus"> <h1 class="footer_pealkiri">Kontaktid</h1><p class="footer_pealkiri"></p><p class="footer_sisu">+372 553 4783<br>info@silvestre.ee</p></td>
+				<td id="korrektuur"> <h1 class="footer_pealkiri">Teenused</h1><p class="footer_pealkiri"></p><p class="footer_sisu">Metsa ost<br>Raieõiguse ost<br>Metsamajandamiskava</p></td>
 			</tr>
 		</table>
 	</footer>
 
 
-<!--<script  type="text/javascript" src="javascript/slideshow.js"></script>-->
 </body>
 	
 </html>
