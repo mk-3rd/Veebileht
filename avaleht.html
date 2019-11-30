@@ -3,9 +3,8 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!--<script type="text/javascript" src="javascript/slideshow.js" ></script>-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="javascript/slideshow.js" ></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
   <title>Avaleht</title>
@@ -30,50 +29,63 @@
 	</tr>
 </table>
 
-
-
-	<!--<main id="main">-->
-  <!-- See on slaidshow osa-->
-  
-</div id="slaidid">
-  <div class="slideshow-container">
-  
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="pildid/mets5.jpg" style="width:100%">
-    <div class="text">Raietööde teostamine</div>
-  </div>
-  
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="pildid/mets6.jpg" style="width: 100%">
-    <div class="text">Metsamajandamiskava koostamine</div>
-  </div>
-  
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="pildid/mets7.jpg" style="width: 100%">
-    <div class="text">Metsa ost</div>
-  </div>
-  
-  </div>
-  <br>
-  
-  <div style="text-align: center">
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-  </div>
+<main id="main">
+    <!-- See on slaidshow osa-->
+  </div id="slaidid">
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="pildid/mets7.jpg" style="width:100%">
+      <div class="text">Raieõiguse müük</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="pildid/mets6.jpg" style="width:100%">
+      <div class="text">Metsamajandamiskava koostamine</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="pildid/mets5.jpg" style="width:100%">
+      <div class="text">Metsa ost</div>
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+    <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 5000); // Change image every 5 seconds
+    }
+    </script>
+    </div>
   <!--siin lõppeb slideshow osa-->
-<script src="javascript/slideshow.js"></script>
-<!--siin lõppeb JS-->
-
-	<main id="main">
-    <!-- Kogu lehe sisu mis lisame, peaks olema main tag-ide vahelises alas, siis header ja footer püsivad õiges kohas -->
-  </script>
-  </div>
-<!--siin lõppeb slideshow osa-->
-		<!-- algab loendur -->
+    
+<!-- algab loendur -->
 		<table id='tabel3'>
 		<tr><div id="loe">
 		<br/>
@@ -91,7 +103,7 @@
 	<div id="tekst">
 	<br>
 	<h1><strong>Säästa raha ja loodust!</strong></h1>
-	<p>Silvestre pakub konkurentsitult eesti parima hinnaga metsamajandusteenuseid ning meil on juba sadu rahulolevaid kliente üle terve riigi.<br>
+	<p>Silvestre pakub konkurentsitult Eesti parima hinnaga metsamajandusteenuseid ning meil on juba sadu rahulolevaid kliente üle terve riigi.<br>
 	Kõiki töid teostame vastutustundlikult, eetiliselt ja keskkonnastandarditele vastavalt. <br>
 	Kui hoolid oma metsast ja rahakotist, võta ühendust ning räägime üksikasjadest juba täpsemalt!</p>
 	</div>
