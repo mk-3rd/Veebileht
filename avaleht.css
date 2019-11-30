@@ -90,10 +90,10 @@
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-  float:left;
+  float:center;
   margin-top:10px;
   margin-bottom:10px;
-  margin-left:20%
+  margin-left:39.5%
 }
 .count
 {
@@ -104,3 +104,7 @@
 }
 
 /* loenduri lõpp */
+#tabel3 {
+	color:white;
+	width:100%;
+}
