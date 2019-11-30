@@ -73,3 +73,28 @@
 	font-size:20px;
 	color:#1e331f
 }
+/* loenduri algus */
+#shiva
+{
+  width: 100px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  float:left;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:20%
+}
+.count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:5px;
+  font-size:25px;
+}
+#loe {
+	background-color:#143033;
+}
+/* loenduri lõpp */
