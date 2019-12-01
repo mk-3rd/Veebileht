@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="et">
 
 <head>
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type="text/javascript" src="javascript/slideshow.js" ></script>
+	<script src="javascript/slideshow.js" ></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <title>Avaleht</title>
   <link rel="stylesheet" href="styles.css">
@@ -17,36 +17,36 @@
 <!-- kogu see table plokk puudutab ülemist rida logo ja navigatsiooni menüüga -->
 <table id='tabel1'>
 	<tr>
-		<th> <img src="pildid/logo.png" alt="logo" width="200" height="38" > </th>
-		<th><nav>
-		  <ul>
-			<li><a id='aktiivne' href="avaleht.html"><strong>Avaleht</strong></a></li>
-			<li><a href="teenused.html"><strong>Teenused</strong></a></li>
-			<li><a href="kontakt.html"><strong>Kontakt</strong></a></li>
+		<th> <img src="pildid/logo.png" width="200" height="38" alt="logo"> </th>
+		<th><div class="nav">
+		  <ul class="nav_ul">
+			<li class="nav_ul_li"><a class="nav_ul_li_a" id='aktiivne' href="avaleht.html"><strong>Avaleht</strong></a></li>
+			<li class="nav_ul_li"><a class="nav_ul_li_a" href="teenused.html"><strong>Teenused</strong></a></li>
+			<li class="nav_ul_li"><a class="nav_ul_li_a" href="kontakt.html"><strong>Kontakt</strong></a></li>
 		  </ul>
-		</nav></th>
+		</div></th>
 	</tr>
 </table>
 <main id="main">
     <!-- See on slaidshow osa-->
-  </div id="slaidid">
+  <div id="slaidid">
     <div class="slideshow-container">
     
     <div class="mySlides fade">
       <div class="numbertext">1 / 3</div>
-      <img src="pildid/mets7.jpg" style="width:100%">
+      <img src="pildid/mets7.jpg" style="width:100%" alt="mets7">
       <div class="text">Raieõiguse müük</div>
     </div>
     
     <div class="mySlides fade">
       <div class="numbertext">2 / 3</div>
-      <img src="pildid/mets6.jpg" style="width:100%">
+      <img src="pildid/mets6.jpg" style="width:100%" alt="mets6">
       <div class="text">Metsamajandamiskava koostamine</div>
     </div>
     
     <div class="mySlides fade">
       <div class="numbertext">3 / 3</div>
-      <img src="pildid/mets5.jpg" style="width:100%">
+      <img src="pildid/mets5.jpg" style="width:100%" alt="mets5">
       <div class="text">Metsa ost</div>
     </div>
     
@@ -91,14 +91,14 @@
       </tr>
 		</table>
 		<div style="clear:both"></div>
-		<script type="text/javascript" src="javascript/loendur.js" ></script>
+		<script src="javascript/loendur.js" ></script>
 		<!-- lõpeb loendur -->
 	<!-- Kogu lehe sisu mis lisame, peaks olema main tag-ide vahelises alas, siis header ja footer püsivad õiges kohas -->
 	<div id="tekstiümbris">
 	<br>
 	<div id="tekst">
 	<br>
-	<h1 id="h11"><strong>Säästa raha ja loodust!</strong></h1>
+	<h1 class="h11"><strong>Säästa raha ja loodust!</strong></h1>
 	<p>Silvestre pakub konkurentsitult Eesti parima hinnaga metsamajandusteenuseid ning meil on juba sadu rahulolevaid kliente üle terve riigi.<br>
 	Kõiki töid teostame vastutustundlikult, eetiliselt ja keskkonnastandarditele vastavalt. <br>
 	Kui hoolid oma metsast ja rahakotist, võta ühendust ning räägime üksikasjadest juba täpsemalt!</p>

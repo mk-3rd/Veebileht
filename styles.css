@@ -3,19 +3,19 @@ body {
 	margin: 0;
 }
 /* nav käib päises oleva peamenüü kohta */
-nav {
+.nav {
 	text-align: right
 }
-nav ul{
+.nav_ul{
 	display: inline;
 }
-nav ul li {
+.nav_ul_li {
 	display: inline;
 	list-style-type: none;
 	color: #2AA567;
 	padding: 2px 40px;	
 }
-nav ul li a {
+.nav_ul_li_a {
 	color: white;
 	text-decoration: none;
 	font-family: Papyrus;
@@ -53,12 +53,12 @@ footer{
 }
 .footer_pealkiri {
 	font-weight: normal;
-	font-family: Calibri Light;
+	font-family: "Calibri Light";
 	font-size: 25px
 }
 .footer_sisu {
 	font-weight: normal;
-	font-family: Calibri Light;
+	font-family: "Calibri Light";
 	font-size: 15px
 }
 #korrektuur {
@@ -74,7 +74,7 @@ footer{
 	text-align:center;
 	
 }
-#h11 {
+.h11 {
     text-decoration: underline;
     text-decoration-color: green;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
