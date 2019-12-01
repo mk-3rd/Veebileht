@@ -46,11 +46,15 @@ ul.b {list-style-type: disc;}
     clear: both;
   }
   
+<<<<<<< HEAD
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   /* @media screen and (max-width: 600px)  */
     /* .column.side, .column.middle { */
       /* width: 100%; */
     }
+=======
+  
+>>>>>>> 71bc7f06805beecc6549d816693bde34dfba7abf
 #riba {
    width:100%; 
 }
