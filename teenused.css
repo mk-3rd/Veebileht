@@ -6,37 +6,51 @@
    width:100%;
 }
 
-ul.b {list-style-type: disc;
+ul.b {list-style-type: disc;}
+
+#tekstiumbris {
+    border: 20px solid #0B393A;
+    background-color: white;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+
+#h11 {
+    text-decoration: underline;
+    text-decoration-color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
   /* Create three unequal columns that floats next to each other */
 .column {
     float: left;
     padding: 30px;
-}
+  }
   
   /* Left and right column */
-.column.side {
+  .column.side {
     width: 25%;
-}
+  }
   
   /* Middle column */
-.column.middle {
+  .column.middle {
     width: 60%;
-}
+  }
   
   /* Clear floats after the columns */
- .row:after {
+  .row:after {
     content: "";
     display: table;
     clear: both;
-}
- #riba {
-   width:100%;
-} 
+  }
+  
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-{
-    .column.side;
-	.column.middle;
+  @media screen and (max-width: 600px) 
+    .column.side, .column.middle {
       width: 100%;
- }
+    }
+#riba {
+   width:100%; 
+}
