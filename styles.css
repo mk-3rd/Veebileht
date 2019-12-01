@@ -74,3 +74,16 @@ footer{
 	text-align:center;
 	
 }
+#h11 {
+    text-decoration: underline;
+    text-decoration-color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#tekstiümbris {
+    border: 20px solid #0B393A;
+    background-color: white;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
