@@ -4,7 +4,6 @@
 <head>
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="javascript/slideshow.js" ></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <title>Avaleht</title>
   <link rel="stylesheet" href="styles.css">
@@ -17,7 +16,7 @@
 <!-- kogu see table plokk puudutab ülemist rida logo ja navigatsiooni menüüga -->
 <table id='tabel1'>
 	<tr>
-		<th> <img src="pildid/logo.png" width="200" height="38" alt="logo"> </th>
+		<th> <img src="pildid/logo.png" id='plokid' > </th> <!-- width="200" height="38" alt="logo"-->
 		<th><div class="nav">
 		  <ul class="nav_ul">
 			<li class="nav_ul_li"><a class="nav_ul_li_a" id='aktiivne' href="avaleht.html"><strong>Avaleht</strong></a></li>
@@ -34,7 +33,7 @@
     
     <div class="mySlides fade">
       <div class="numbertext">1 / 3</div>
-      <img src="pildid/mets7.jpg" style="width:100%" alt="mets7">
+      <img src="pildid/mets7.jpg" id="kood" alt="mets7"> <!--style="width:100%" alt="mets7"-->
       <div class="text">Raieõiguse müük</div>
     </div>
     
@@ -59,27 +58,7 @@
       <span class="dot"></span> 
     </div>
     
-    <script>
-    var slideIndex = 0;
-    showSlides();
-    
-    function showSlides() {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}    
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";  
-      dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 5000); // Change image every 5 seconds
-    }
-    </script>
+
     </div>
 		<!-- algab loendur -->
 		<br>
@@ -117,7 +96,7 @@
 		</table>
 	</footer>
 
-
+<script src="javascript/slideshow.js"></script>
 </body>
 	
 </html>
