@@ -10,7 +10,6 @@ figure img{
 
 #riba {
    width:100%;
-   alt:pildiriba;
 }
 
 #tekst {
@@ -27,7 +26,6 @@ figure img{
 }
 
 #logo1 {
-   width: 100;
-   height: 24;
-   /*alt:logo;*/
+   width: 100%;
+   height: 24px;
 }
