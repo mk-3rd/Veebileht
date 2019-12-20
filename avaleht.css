@@ -109,14 +109,23 @@
 	width:100%;
 }
 
-#plokid
-{
+#plokid {
   width: 200;
   height: 38;
   alt: logo;
 }
 
-#kood{
+#kood {
   width: 100%;
-  alt:mets7
+  alt:mets7;
+}
+
+#kood1 {
+  width: 100%;
+  alt:mets6;
+}
+
+#kood2 {
+  width: 100%;
+  alt:mets5;
 }

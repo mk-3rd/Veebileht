@@ -10,6 +10,7 @@ figure img{
 
 #riba {
    width:100%;
+   alt:pildiriba;
 }
 
 #tekst {
@@ -19,4 +20,14 @@ figure img{
 }
 #valgeala {
 	background: white
+}
+#mapDiv {
+   width: 100%;
+   height: 450px;
+}
+
+#logo1 {
+   width: 100;
+   height: 24;
+   /*alt:logo;*/
 }

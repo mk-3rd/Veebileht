@@ -15,7 +15,7 @@
 <!-- kogu see table plokk puudutab ülemist rida logo ja navigatsiooni menüüga -->
 <table id='tabel1'>
 	<tr>
-		<th> <img src="pildid/logo.png" width="200" height="38" alt="logo"> </th>
+		<th> <img src="pildid/logo.png" id="logo1"> </th>
 		<th><div class="nav">
 		  <ul class="nav_ul">
 			<li class="nav_ul_li"><a class="nav_ul_li_a" href="avaleht.html"><strong>Avaleht</strong></a></li>
@@ -27,7 +27,7 @@
 </table>
 	<main id="main">
 
-		<img id="riba" alt="pildiriba" src="pildid/pisikontakt.png">
+		<img id="riba" src="pildid/pisikontakt.png"></img>
 		<div id="valgeala">
 		<div id="tekstiümbris">
 		<p id="tekst"><strong><u class="h11">Silvestre OÜ</u><br/><br/>
@@ -37,36 +37,35 @@
 	</div>	
 	<!-- Kogu lehe sisu mis lisame, peaks olema main tag-ide vahelises alas, siis header ja footer püsivad õiges kohas -->
 	<!-- see script siin on see mis kuvab kaarti meile ilusast -->
-	<div id="mapDiv" style="width: 100%; height: 450px"></div> 
-		  <script>
-			// position we will use later
-			var lat = 58.945660;
-			var lon = 23.537860;
-			// initialize map
-			map = L.map('mapDiv').setView([lat, lon], 16);
-			// set map tiles source
-			L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-			  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
-			  maxZoom: 18,
-			}).addTo(map);
-			// add marker to the map
-			marker = L.marker([lat, lon]).addTo(map);
-			// add popup to the marker
-			marker.bindPopup("<b>SILVESTRE OÜ</b><br />Karja 27<br />Haapsalu 90502").openPopup();
-		  </script>
+		<div id="mapDiv"></div> 
+		<script src="javascript/kaart.js"></script>
 	</div>
 	</main>
-	<!-- see footeri osa on siis see lõpuriba see võiks koodi viimaseks osaks jääda -->
+	
 	<footer>
 		<table id="tabel2">
 			<tr>
-				<td class="footer_kujundus"><img src="pildid/logo.png" alt="logo" width="200" height="38" ><p></p><img src="pildid/info.png" alt="info" width="180" height="52"><p></p>© 2019 Silvestre</td>
+				<td class="footer_kujundus"><img class="footer1" src="pildid/logo.png"><p></p><img class="footer2" src="pildid/info.png"><p></p>© 2019 Silvestre</td>
 				<td class="footer_kujundus"> <h1 class="footer_pealkiri">Silvestre OÜ</h1><p class="footer_pealkiri"></p><p class="footer_sisu">Registrikood: 10827304<br>Karja 27, Haapsalu 90502</p></td>
 				<td class="footer_kujundus"> <h1 class="footer_pealkiri">Kontaktid</h1><p class="footer_pealkiri"></p><p class="footer_sisu">+372 553 4783<br>info@silvestre.ee</p></td>
 				<td id="korrektuur"> <h1 class="footer_pealkiri">Teenused</h1><p class="footer_pealkiri"></p><p class="footer_sisu">Metsa ost<br>Raieõiguse ost<br>Metsamajandamiskava</p></td>
 			</tr>
 		</table>
 	</footer>
+	
+	
+	
+	<!-- see footeri osa on siis see lõpuriba see võiks koodi viimaseks osaks jääda -->
+	<!--<footer>
+		<table id="tabel2">
+			<tr>
+				<td class="footer_kujundus" alt= "logo"><img src="pildid/logo.png" ><p></p><img class="footer_kujundus" src="pildid/info.png" id="footer2"><p></p>© 2019 Silvestre</td>
+				<td class="footer_kujundus"> <h1 class="footer_pealkiri">Silvestre OÜ</h1><p class="footer_pealkiri"></p><p class="footer_sisu">Registrikood: 10827304<br>Karja 27, Haapsalu 90502</p></td>
+				<td class="footer_kujundus"> <h1 class="footer_pealkiri">Kontaktid</h1><p class="footer_pealkiri"></p><p class="footer_sisu">+372 553 4783<br>info@silvestre.ee</p></td>
+				<td id="korrektuur"> <h1 class="footer_pealkiri">Teenused</h1><p class="footer_pealkiri"></p><p class="footer_sisu">Metsa ost<br>Raieõiguse ost<br>Metsamajandamiskava</p></td>
+			</tr>
+		</table>
+	</footer>-->
 
 </body>
 	

@@ -50,6 +50,9 @@ footer{
 .footer_kujundus {
 	width: 25%;
 	padding: 20px;
+	/*alt: logo;*/
+	width: 200;
+	height: 38;
 }
 .footer_pealkiri {
 	font-weight: normal;
@@ -87,3 +90,15 @@ footer{
     padding-bottom: 50px;
     padding-left: 80px;
   }
+
+.footer2 {
+	alt: info;
+	width: 180;
+	height: 52;
+}
+
+.footer1 {
+	alt: logo;
+	width: 200;
+	height: 38;
+}
