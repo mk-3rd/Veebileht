@@ -23,7 +23,7 @@ background: #0B393A;
   color: #f2f2f2;
   font-size: 50px;
   padding: 8px 12px;
-  position: absolute;
+  position: relative;
   bottom: 8px;
   width: 100%;
   text-align: center;
@@ -109,7 +109,10 @@ color:#1e331f
 	width:100%;
 }
 
-#kood {
+#pildid {
   width: 100%;
-  alt:mets7;
+}
+
+#tekstipäis {
+  text-align: center;
 }
